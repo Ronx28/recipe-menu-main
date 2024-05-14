@@ -1,0 +1,247 @@
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(30, 54%, 90%)
+}
+.container {
+    width: 600px;
+    height: 100vh;
+    overflow: auto; 
+    background-color:  hsl(330, 100%, 98%); 
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-bottom: 50px;
+}
+.container img{
+    width: auto; 
+    max-height: 250px; 
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: auto;
+    margin-left: auto; 
+    margin-right: auto;
+}
+.container h3{
+    font-size: 40px;
+    font-family: 'young serif';
+    font-weight: normal;
+    margin-top: 20px;
+    margin-left: 22px;
+}
+.container p{
+    font-size: 14px;
+    width: 550px;
+    margin-top: 10px;
+    margin-left: 25px;
+    display: block;
+    font-family: 'outfit';
+    font-weight: normal;
+}
+
+.perparation {
+    background-color: rgb(255, 213, 220);
+    width: 530px;
+    height: 180px;
+    display: block;
+    margin-left: 28px;
+    margin-top: 25px;
+}
+
+.perparation h2{
+    color: hsl(332, 51%, 32%);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.perparation li{
+    padding: 5px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+h4{
+    font-size: 30px;
+    color: #803D3B;
+    margin-left: 25px;
+    margin-top: 20px; 
+    margin-bottom: 10px; 
+}
+.ingredients li{
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.ingredients ul{
+    color: hsl(30, 10%, 34%);
+}
+.container hr, .container-text{
+    width: 530px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+.intruduction ul{
+    list-style-type: decimal;
+    color: hsl(30, 10%, 34%);
+}
+.intruduction li{
+    margin-left: 50px;
+    padding: 5px;
+}
+.text-kiri, .text-kanan{
+    display: inline;
+}
+.container-text{
+    display: table;
+}
+.text-kiri{
+    margin-left: 30px;
+}
+.text-kanan{
+    margin-left: 250px;
+    font-weight: bold;
+    color: #803D3B;
+}
+
+@media (max-width: 375px){
+    .container {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .container img {
+        width: 100%;
+        height: auto;
+        max-height: none;
+        border-radius: 10px;
+        margin: 10px auto 0 auto;
+    }
+
+    .container h3 {
+        font-size: 24px;
+        margin: 10px 10px 0 10px;
+    }
+
+    .container p {
+        width: calc(100% - 20px);
+        margin: 10px;
+        font-size: 12px;
+    }
+
+    .perparation {
+        width: calc(100% - 20px);
+        margin: 10px;
+        height: auto;
+        padding: 10px;
+    }
+
+    .perparation h2 {
+        margin: 10px 0;
+        font-size: 18px;
+    }
+
+    .perparation li {
+        margin-left: 20px;
+        font-size: 14px;
+    }
+
+    h4 {
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    .ingredients li {
+        margin-left: 20px;
+        font-size: 14px;
+    }
+
+    .container hr, .container-text {
+        width: calc(100% - 20px);
+        margin: 10px auto;
+    }
+
+    .text-kanan {
+        margin-left: 30%;
+    }
+}
+@media (max-width: 275px) {
+    .container {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    .container img {
+        width: 100%;
+        height: auto;
+        max-height: none;
+        border-radius: 10px;
+        margin: 5px auto 0 auto;
+    }
+
+    .container h3 {
+        font-size: 20px;
+        margin: 5px 5px 0 5px;
+    }
+
+    .container p {
+        width: calc(100% - 10px);
+        margin: 5px;
+        font-size: 10px;
+    }
+
+    .perparation {
+        width: calc(100% - 10px);
+        margin: 5px;
+        height: auto;
+        padding: 5px;
+    }
+
+    .perparation h2 {
+        margin: 5px 0;
+        font-size: 16px;
+    }
+
+    .perparation li {
+        margin-left: 10px;
+        font-size: 12px;
+    }
+
+    h4 {
+        font-size: 18px;
+        margin: 5px;
+    }
+
+    .ingredients li {
+        margin-left: 10px;
+        font-size: 12px;
+    }
+
+    .container hr, .container-text {
+        width: calc(100% - 10px);
+        margin: 5px auto;
+    }
+
+    .text-kanan {
+        margin-left: 25%;
+    }
+}
